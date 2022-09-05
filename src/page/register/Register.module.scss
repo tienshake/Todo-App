@@ -1,0 +1,17 @@
+.container {
+  height: 1000px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content {
+  margin-top: 24px;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  padding: 24px;
+}
+.pointer {
+  cursor: pointer;
+}

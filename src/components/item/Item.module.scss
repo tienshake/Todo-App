@@ -1,0 +1,135 @@
+.item {
+    justify-content: space-between;
+    margin: 10px 0;
+    background-color: rgba(255 255 255 / 0.3);
+    border: 1px solid rgba(255 255 255 / 0.5);
+    border-radius: 15px;
+    padding: 10px 24px;
+    display: flex;
+    &:hover {
+        border-color: #ffd337;
+    }
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.title {
+    font-weight: 500;
+    font-size: 18px;
+    color: #333;
+}
+.content {
+    font-weight: 500;
+    color: #c3b5cd;
+    padding: 10px 0;
+    width: 750px;
+    line-break: auto;
+}
+.right {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+    svg {
+        cursor: pointer;
+    }
+}
+.mid {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    :global(.MuiButton-root) {
+        height: 25px;
+        text-transform: capitalize;
+    }
+}
+.btnDone {
+    background-color: #3ba1ff !important;
+    color: white !important;
+    svg {
+        font-size: 20px !important;
+    }
+}
+.btnCheck {
+    background-color: #4ecc4e !important;
+    color: white !important;
+}
+.btnRemove {
+    background-color: #df7150 !important;
+    color: white !important;
+    font-size: 12px !important;
+}
+.time {
+    color: #333;
+}
+.iconLoading {
+    height: 20px !important;
+    width: 20px !important;
+}
+.date {
+    display: flex;
+    gap: 10px;
+}
+.space {
+    color: black;
+}
+.outDate {
+    opacity: 0.4;
+    &:hover {
+        border-color: transparent !important;
+    }
+}
+
+.left {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+@media screen and (min-width: 800px) {
+    .mid {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mid {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .mid {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .mid {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .mid {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .mid {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 320px), (max-width: 280px) {
+    .date {
+        display: block;
+    }
+    .mid {
+        width: 200px;
+    }
+}

@@ -1,0 +1,22 @@
+.container {
+    position: sticky !important;
+    top: 0;
+    z-index: 10;
+    background-color: #161b22 !important;
+    background: linear-gradient(to right, #161b22, #4a1875);
+    a {
+        &:hover {
+            color: rgb(211, 210, 210);
+        }
+    }
+    :global(.active) {
+        background-color: white;
+        .btnLink {
+            color: var(--color-text) !important;
+        }
+    }
+}
+.link,
+.btnLink {
+    min-height: 64px;
+}

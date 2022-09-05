@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,500&display=swap');
+:root {
+  --color-white: #ffffff;
+  --color-text: #333;
+}
+.container {
+  background-color: white;
+  overflow-x: hidden;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.MuiButton-root {
+  margin: 0 !important;
+  min-width: 100px !important;
+  background-color: #3ba1ff !important;
+}
+a {
+  text-decoration: none;
+  color: var(--color-white);
+  // &:hover {
+  //   color: var(--color-text)
+  // }
+}

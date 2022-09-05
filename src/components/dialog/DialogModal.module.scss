@@ -1,0 +1,46 @@
+.form {
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.formInput {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Dialog {
+  :global(.MuiPaper-root) {
+    min-width: 500px !important;
+  }
+}
+.area {
+  //min-height: 100px !important;
+  padding: 10px;
+}
+.DialogTitle {
+  display: flex;
+  justify-content: space-between;
+  svg {
+    &:hover {
+      opacity: 0.7;
+      cursor: pointer;
+    }
+  }
+}
+.DialogActions {
+  padding: 24px 24px !important;
+}
+.Dialog {
+  :global(.MuiPaper-root) {
+    border-radius: 10px;
+  }
+}
+
+@media screen and(max-width: 480px) {
+  .Dialog {
+    :global(.MuiPaper-root) {
+      min-width: 300px !important;
+    }
+  }
+}

@@ -1,0 +1,77 @@
+.container {
+  // background-color: #ccc;
+  height: auto;
+}
+.header {
+  h4 {
+    color: var(--color-white);
+  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btnHeader {
+  background-color: #ff7179 !important;
+  border-radius: 10px !important;
+  width: 120px !important;
+}
+.actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  svg {
+    color: var(--color-white);
+    cursor: pointer;
+  }
+}
+.content {
+  margin-top: 24px;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .container {
+    width: 850px;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .container {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .container {
+    width: 370px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .container {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .container {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    width: 250px;
+  }
+}
