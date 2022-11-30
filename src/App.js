@@ -10,6 +10,7 @@ import { useSelector } from 'react-redux';
 
 function App() {
     const user = useSelector((state) => state.auth.login.currentUser);
+    dssd;
     return (
         <GlobalStyle>
             <BrowserRouter>
